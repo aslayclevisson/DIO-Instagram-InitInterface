@@ -1,0 +1,22 @@
+
+.field {
+  position: relative;
+}
+
+label {
+  position: absolute;
+  left: 5px;
+  top: 22px;
+  transition: 0.3s ease all;
+  font-size: 15px;
+}
+
+.input-text {
+  position: absolute;
+  left: 0;
+  top: 20px;
+}
+
+input:focus + label {
+  top: 0;
+}
